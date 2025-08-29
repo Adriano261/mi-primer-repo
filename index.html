@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi primera página</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Primer Formulario</title>
 </head>
 <body>
-  <h1>¡Hola GitHub!</h1>
-  <p>Esta es mi primera página HTML subida a GitHub.</p>
+    <header>
+        <h1>Patrones de Diseño Web</h1>
+        <div class="subtitulos">
+            <h3>Introduccion</h3>
+            <h3>Tipos</h3>
+            <h3>Soluciones</h3>
+            <h3>Curiosidades</h3>
+            <h3>Caracteristicas</h3>
+        </div>
+    </header>
+    <main>
+        <h2>¿Qué es un patrón de diseño Web?</h2>
+        
+        <p>Son patrones que evitan la reiteración en la búsqueda de soluciones a problemas ya conocidos y solucionados 
+            anteriormente en entornos Web. Permiten estandarizar el modo en que se realiza el diseño tambien son patrones 
+            que facilitar el aprendizaje de las nuevas generaciones de diseñadores condensando conocimiento ya existente.
+        </p>
+        <hr>
+        <h2>Tipos de patrones de diseño Web</h2>
+        <ol>
+            <li><strong>Cliente Web Delgado</strong></li>
+            <ul>
+            <li>Se utiliza cuando los clientes tienen poco poder de computación o no se tiene control sobre su configuración</li>
+            <li>Toda la lógica de trabajo se ejecuta en el servidor</li>
+            <li>El más utilizado en aplicaciones para Internet</li>
+            </ul>
+            <div class="imagenes">
+                <img src="https://i0.wp.com/zeetim.com/wp-content/uploads/2024/03/Thin-client-architecture.png?resize=746%2C550&ssl=1" alt="logo" width="200">
+            </div>
+
+            <li><strong>Cliente Web Grueso</strong></li>
+            <ul>
+                <li>Extiende el patrón Cliente Web Delgado mediante el uso de scripts u objetos del lado del cliente</li>
+                <li>El cliente ejecuta lógica de trabajo</li>
+                <li>Permite establecer interfaces de usuario sofisticadas</li>
+            </ul>
+            <div class="imagenes">
+                <img src="https://itirra.com/wp-content/uploads/2022/09/unnamed-2.png" alt="logo" width="200">
+            </div>
+
+            <li><strong>Web Object (Distribuido)</strong></li>
+            <ul>
+                <li>Se basa en la utilización de la tecnología Web como parte de un sistema cliente/servidor de objetos distribuidos</li>
+                <li>Es apropiado para ser usado en ambientes donde hay control sobre la configuración del visualizador y la conexión de red (Intranet)</li>
+            </ul>
+            <div class="imagenes">
+                <img src="https://avada-media.ua/wp-content/uploads/2022/11/thick-client-3act.png" alt="logo" width="200">
+            </div>
+        </ol>
+        <hr>
+        <h2>Soluciones</h2>
+        <p>Un patrón de diseño es una solución probada y reutilizable a un problema común que se presenta en el desarrollo de software o diseño de interacción. </p>
+        <hr>
+        <h2>Curiosidades</h2>
+        <p>Las curiosidades sobre los patrones de diseño incluyen su origen en la arquitectura 
+            (Christopher Alexander), que no son código listo para usar, sino plantillas de soluciones reutilizables. 
+            También son importantes porque crean un lenguaje común entre desarrolladores, permiten la reutilización 
+            de conocimiento y la adaptación a diferentes contextos, y existen tres categorías principales: patrones creacionales, estructurales y de comportamiento. </p>
+        <hr>
+        <h2>Caracteristicas</h2>
+            <ul>
+                <li>No son código literal:</li>
+                <p>Los patrones de diseño no son fragmentos de código que se copian y pegan, sino conceptos o descripciones de soluciones 
+                    que deben adaptarse a las necesidades específicas de cada proyecto.  </p>
+                <li>Lenguaje común:</li>
+                <p>Proporcionan un vocabulario compartido entre los diseñadores, lo que facilita la comunicación, el debate sobre 
+                    alternativas y la estandarización del diseño.  </p>
+                <li>Reutilización de conocimiento:</li>
+                <p>Permiten a los desarrolladores aprovechar la experiencia acumulada, evitando "reinventar la rueda" al solucionar 
+                    problemas ya conocidos y demostrados como efectivos. </p>
+            </ul>
+        <hr>
+        <section id="seccion01">
+            <p>2025 Todo lo que tienes que saber acerca de Patrones de Diseño Web.</p>
+        </section>
+    </main>
 </body>
 </html>
